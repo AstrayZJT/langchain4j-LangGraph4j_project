@@ -9,3 +9,5 @@ learning-assistant:
     model-name: ${DASHSCOPE_MODEL_NAME:qwen-plus}
     temperature: ${DASHSCOPE_TEMPERATURE:0.2}
     max-tokens: ${DASHSCOPE_MAX_TOKENS:4096}
+    timeout: ${DASHSCOPE_TIMEOUT:PT5M}
+    max-retries: ${DASHSCOPE_MAX_RETRIES:2}

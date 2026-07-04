@@ -19,6 +19,7 @@
 ```bash
 set DASHSCOPE_API_KEY=你的key
 set DASHSCOPE_MODEL_NAME=qwen-plus
+set DASHSCOPE_TIMEOUT=PT5M
 ```
 
 再启动：
@@ -28,4 +29,3 @@ mvn spring-boot:run
 ```
 
 启动后，控制台会打印完整工作流的执行过程、checkpoint 暂停信息和最终文档。
-
